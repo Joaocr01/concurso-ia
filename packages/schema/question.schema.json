@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeneratedQuestions",
+  "type": "object",
+  "properties": {
+    "questions": { "type": "array" },
+    "skipped": { "type": "array" }
+  },
+  "required": ["questions","skipped"]
+}
